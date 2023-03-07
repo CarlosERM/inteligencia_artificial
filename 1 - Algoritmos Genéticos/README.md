@@ -14,3 +14,12 @@
 ## **Fluxograma de um Algoritmo Genético**
 
 ![fluxograma](./Images/Fluxograma%20de%20um%20Algoritmo%20Genético.png)
+
+
+## ERRATAS DO VÍDEO
+```py
+if not repetiu(cromossomo, chr(temp + 48)):
+            cromossomo += chr(temp + 48)
+
+# A função repetiu verifica se a cidade repetiu ou não. Caso não tenha repetido, ela simplesmente envia a cidade para o cromossomo.
+```
